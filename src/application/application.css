@@ -1,0 +1,56 @@
+/* Style cho AnchorPane chính */
+#nen {
+    -fx-background-color: #33CCCC; /* Màu xanh lá */
+}
+
+/* Hình nền */
+.background-image {
+    -fx-opacity: 0.8; /* Độ trong suốt */
+}
+
+/* Tiêu đề */
+.title {
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+/* Nhãn input */
+.input-field {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Ô nhập liệu */
+.input-field {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 6px;
+}
+
+/* Nút đăng nhập */
+#btnDN {
+    -fx-background-color: #2E7D32;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+#btnDN:hover {
+    -fx-background-color: #1B5E20;
+    -fx-cursor: hand;
+}
+
+/* Link quên mật khẩu */
+#lblQMK {
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-text-fill: #e0f7fa;
+    -fx-underline: true;
+}
+
+#lblQMK:hover {
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
